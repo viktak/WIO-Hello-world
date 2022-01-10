@@ -190,15 +190,15 @@ void buttonHandler(Button2& btn) {
         case SINGLE_CLICK:{
             Beep(128, 100);
             switch (btn.getAttachPin()){
-            case 28:
+            case WIO_KEY_A:
                 page--;
                 if ( page < 0 ) page = n;
                 DisplayData(true);
                 break;
-            case 29:
+            case WIO_KEY_B:
                 
                 break;
-            case 30:
+            case WIO_KEY_C:
                 page++;
                 if ( page > n ) page = 0;
                 DisplayData(true);

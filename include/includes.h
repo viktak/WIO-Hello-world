@@ -36,8 +36,6 @@
 #include "SAMDTimerInterrupt.h"
 #include "SAMD_ISR_Timer.h"
 
-#include <Arduino_GFX_Library.h>
-
 #include <ArduinoJson.h>
 #include <TimeChangeRules.h>
 #include "Button2.h"
